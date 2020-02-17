@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./formulario.component.css']
 })
 export class FormularioComponent implements OnInit {
-  nome: string = '';
+  nome: any = '';
   email: string ='';
   cidade: string ='';
   constructor() { }
